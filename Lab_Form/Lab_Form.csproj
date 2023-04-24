@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D368F658-03DC-4FD2-A7E7-09BF6D371A07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab_Form</RootNamespace>
+    <AssemblyName>Lab_Form</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRM_M00_HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M00_HomePage.Designer.cs">
+      <DependentUpon>FRM_M00_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M01_HelloForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M01_HelloForm.Designer.cs">
+      <DependentUpon>FRM_M01_HelloForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M02_REPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M02_REPORT.Designer.cs">
+      <DependentUpon>FRM_M02_REPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M02_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M02_Loan.Designer.cs">
+      <DependentUpon>FRM_M02_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M03 Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M03 Order.Designer.cs">
+      <DependentUpon>FRM_M03 Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M04_StudentStructForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M04_StudentStructForm.Designer.cs">
+      <DependentUpon>FRM_M04_StudentStructForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M05_StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M05_StudentGrade.Designer.cs">
+      <DependentUpon>FRM_M05_StudentGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M06_StudentGradeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M06_StudentGradeList.Designer.cs">
+      <DependentUpon>FRM_M06_StudentGradeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M07_Clac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M07_Clac.Designer.cs">
+      <DependentUpon>FRM_M07_Clac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M08_ForDoWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M08_ForDoWhile.Designer.cs">
+      <DependentUpon>FRM_M08_ForDoWhile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M09_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M09_XOGame.Designer.cs">
+      <DependentUpon>FRM_M09_XOGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M10_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M10_ScreenSaver.Designer.cs">
+      <DependentUpon>FRM_M10_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M11_NotePad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M11_NotePad.Designer.cs">
+      <DependentUpon>FRM_M11_NotePad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M12_DrawPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M12_DrawPaint.Designer.cs">
+      <DependentUpon>FRM_M12_DrawPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M13_PictureShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M13_PictureShow.Designer.cs">
+      <DependentUpon>FRM_M13_PictureShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M13_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M13_PictureViewer.Designer.cs">
+      <DependentUpon>FRM_M13_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M14_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M14_Guess.Designer.cs">
+      <DependentUpon>FRM_M14_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M14_GuessShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M14_GuessShow.Designer.cs">
+      <DependentUpon>FRM_M14_GuessShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_M15_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_M15_Alarm.Designer.cs">
+      <DependentUpon>FRM_M15_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FRM_M00_HomePage.resx">
+      <DependentUpon>FRM_M00_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M01_HelloForm.resx">
+      <DependentUpon>FRM_M01_HelloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M02_REPORT.resx">
+      <DependentUpon>FRM_M02_REPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M02_Loan.resx">
+      <DependentUpon>FRM_M02_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M03 Order.resx">
+      <DependentUpon>FRM_M03 Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M04_StudentStructForm.resx">
+      <DependentUpon>FRM_M04_StudentStructForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M05_StudentGrade.resx">
+      <DependentUpon>FRM_M05_StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M06_StudentGradeList.resx">
+      <DependentUpon>FRM_M06_StudentGradeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M07_Clac.resx">
+      <DependentUpon>FRM_M07_Clac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M08_ForDoWhile.resx">
+      <DependentUpon>FRM_M08_ForDoWhile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M09_XOGame.resx">
+      <DependentUpon>FRM_M09_XOGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M10_ScreenSaver.resx">
+      <DependentUpon>FRM_M10_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M11_NotePad.resx">
+      <DependentUpon>FRM_M11_NotePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M12_DrawPaint.resx">
+      <DependentUpon>FRM_M12_DrawPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M13_PictureShow.resx">
+      <DependentUpon>FRM_M13_PictureShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M13_PictureViewer.resx">
+      <DependentUpon>FRM_M13_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M14_Guess.resx">
+      <DependentUpon>FRM_M14_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M14_GuessShow.resx">
+      <DependentUpon>FRM_M14_GuessShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_M15_Alarm.resx">
+      <DependentUpon>FRM_M15_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459164-54c2w4kmje_m_1200x689_800x459_400x230.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459201-inllbzqckw_m_1200x561_800x374_400x187.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459212-o7qfa51uau_m_1200x486_800x324_400x162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459223-cptmjptwag_m_1200x607_800x404_400x202.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459233-nhz4x4sloj_m_1200x587_800x391_400x196.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459242-ukciqcldnd_m_1200x582_800x388_400x194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459257-dgnazd3jen_m_1200x490_800x327_400x163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459280-t8fdrihe32_m_1200x723_800x482_400x241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459302-fe01nmrmcs_m_1200x553_800x369_400x184.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459314-irikwluke9_m_1200x500_800x333_400x167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459330-oicyua9wt0_m_1200x598_800x399_400x199.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459164-54c2w4kmje_m_1200x689_800x459_400x2301.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459201-inllbzqckw_m_1200x561_800x374_400x1871.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459212-o7qfa51uau_m_1200x486_800x324_400x1621.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459223-cptmjptwag_m_1200x607_800x404_400x2021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459233-nhz4x4sloj_m_1200x587_800x391_400x1961.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459242-ukciqcldnd_m_1200x582_800x388_400x1941.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459257-dgnazd3jen_m_1200x490_800x327_400x1631.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459280-t8fdrihe32_m_1200x723_800x482_400x2411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459302-fe01nmrmcs_m_1200x553_800x369_400x1841.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459314-irikwluke9_m_1200x500_800x333_400x1671.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21d28038-6d71-4f5d-af8c-c54ed483e2ba-1641459330-oicyua9wt0_m_1200x598_800x399_400x1991.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
